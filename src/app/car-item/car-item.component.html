@@ -1,0 +1,13 @@
+<div class="bg-light p-3 my-3 rounded" style="overflow: auto;">
+  <img
+    src="{{ car.car_photo }}"
+    class="img-fluid float-left rounded  mr-3"
+    style="width:200px"
+  />
+  <h2>
+    <a href="/car/{{ car.id }}"
+      >{{ car.make }} {{ car.model }} {{ car.year }}</a
+    >
+  </h2>
+  <p>{{ car.description }}</p>
+</div>
